@@ -5,5 +5,5 @@ The app was then build using npm run build and deployed to elasticbeanstalk usin
     eb init
     eb create
     eb deploy
-
+## url link: http://udagram-nchifor-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url={image-url-here}
 

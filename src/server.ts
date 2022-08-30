@@ -36,7 +36,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
   //! END @TODO1
   app.get('/filteredimage',async (req,res)=>{
-    let {image_url}=req.query
+    let image_url:string =req.query.image_url // thanks for the correction :)
     if(!image_url){
       res.status(400).send('image url is required')
     }
